@@ -1,9 +1,7 @@
 package com.practice.springBoot.crudDemo.rest;
 
-import com.practice.springBoot.crudDemo.dao.EmployeeDAO;
 import com.practice.springBoot.crudDemo.entity.Employee;
 import com.practice.springBoot.crudDemo.service.EmployeeService;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 import tools.jackson.databind.json.JsonMapper;
 
